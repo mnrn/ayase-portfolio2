@@ -7,7 +7,7 @@
     "description": "",
     "text": "Vue.jsとFirebaseで1~2日あたりで作った作品。一番の収穫はJestというテスティングフレームワークを試せたこと。",
     "url": "https://cybernetic-pact-201908.firebaseapp.com/",
-    "picture" : "janken.png"
+    "picture" : "janken.webp"
   },
   {
     "id": 2,
@@ -15,8 +15,8 @@
     "title": "ポケモンステータス計算",
     "year": "2019/7",
     "description": "",
-    "text": "こちらもVue.jsとFirebaseで1~2日程度で作った作品。結局、TypeScriptで書き直し、E2Eテストも導入した。",
+    "text": "もともとはVue.jsとFirebaseで1~2日程度で作った作品。結局、TypeScriptで書き直し、E2Eテストも導入した。",
     "url": "https://pokemon-stats-calc.web.app/",
-    "picture": "pokemon-stats-calc.png"
+    "picture": "poke-stats-calc.webp"
   }
 ]

@@ -1,15 +1,15 @@
 [
   {
     "key": "C++",
-    "value": "年々モダンになっていく姿に感動する。好きなライブラリはCatch2とfmtです。"
+    "value": "年々モダンになっていく姿に感動する。好きなライブラリはCatch2とfmt。"
   },
   {
     "key": "Python",
-    "value": "簡単なスクリプトは基本Pythonで組みます。好きなライブラリはrequestsです。"
+    "value": "簡単なスクリプトは基本Pythonで組みます。好きなライブラリはrequests。"
   },
   {
     "key": "C#/Unity",
-    "value": "現在Unityの学習とゲーム開発を並行してやってます。"
+    "value": "現在、Unityの学習とゲーム開発を並行してやってます。"
   },
   {
     "key": "TypeScript/Vue.js",
@@ -21,10 +21,10 @@
   },
   {
     "key": "利用しているサービス",
-    "value": "インフラなど含めて、主にFirebaseを利用しています。"
+    "value": "AWSやHerokuを利用していたが、今はインフラなどを含めて、主にFirebaseを利用しています。"
   },
   {
-    "key": "プログラミングスタイル",
+    "key": "開発のスタイル",
     "value": "開発ではTestをなによりも重視します。あとLintとFormatter。"
   }
 ]
