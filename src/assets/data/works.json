@@ -16,7 +16,7 @@
     "year": "2019/7",
     "description": "",
     "text": "もともとはVue.jsとFirebaseで1~2日程度で作った作品。結局、TypeScriptで書き直し、E2Eテストも導入した。",
-    "url": "https://pokemon-stats-calc.web.app/",
+    "url": "https://pokemon-stats-calc.firebaseapp.com/",
     "picture": "poke-stats-calc.webp"
   }
 ]
