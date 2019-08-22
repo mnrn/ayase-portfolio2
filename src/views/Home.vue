@@ -1,11 +1,13 @@
 <template lang="pug">
   div#home
     header
+      header-nav
       h1.site-title
         router-link(to="/") あやせさんのポートフォリオ
     about
     skills
     works
+    footer-nav
 </template>
 
 <script lang="ts">
@@ -13,12 +15,16 @@ import { Component, Vue } from 'vue-property-decorator'
 import About from '@/components/About.vue'
 import Skills from '@/components/Skills.vue'
 import Works from '@/components/Works.vue'
+import HeaderNav from '@/components/HeaderNav.vue'
+import FooterNav from '@/components/FooterNav.vue'
 
 @Component({
   components: {
     about: About,
     skills: Skills,
-    works: Works
+    works: Works,
+    headerNav: HeaderNav,
+    footerNav: FooterNav
   }
 })
 export default class Home extends Vue {}
