@@ -18,5 +18,15 @@
     "text": "もともとはVue.jsとFirebaseで1~2日程度で作った作品。結局、TypeScriptで書き直し、E2Eテストも導入した。",
     "url": "https://pokemon-stats-calc.firebaseapp.com/",
     "picture": "poke-stats-calc.webp"
+  },
+  {
+    "id": 3,
+    "repository": "https://github.com/mnrn/ReadReciept",
+    "title": "レシート読み取りアプリ",
+    "year": "2019/9",
+    "description": "",
+    "text": "勢いで作ったiOSアプリ。テストが不十分なのとデザインが未完成。Google Cloud Vision APIで読み取ったJSONをFirebase Databaseへ送信する。",
+    "url": "https://github.com/mnrn/ReadReciept",
+    "picture": "reciept.webp"
   }
 ]

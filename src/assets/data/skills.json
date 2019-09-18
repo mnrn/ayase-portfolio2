@@ -12,6 +12,10 @@
     "value": "現在、Unityの学習とゲーム開発を並行してやってます。"
   },
   {
+    "key": "Swift/iOS",
+    "value": "使用している端末がiPhone/iPadなので作りたいアプリがあると必然的に触る必要がある。"
+  },
+  {
     "key": "TypeScript/Vue.js",
     "value": "ポートフォリオなどで使用。Reactなども学習しているが現在はVueに落ち着いている。"
   },
@@ -25,6 +29,6 @@
   },
   {
     "key": "開発のスタイル",
-    "value": "開発ではTestをなによりも重視します。あとLintとFormatter。"
+    "value": "開発ではTestを重視します。あとLintとFormatter。"
   }
 ]

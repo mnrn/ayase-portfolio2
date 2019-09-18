@@ -41,8 +41,8 @@ export default class Works extends Vue {
       min-height: max-content
       .work
         img
-          width: 320px
-          height: 240px
+          height: 320px
+          width: auto
         .product-text
           width: 320px
 </style>
