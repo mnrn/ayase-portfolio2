@@ -1,27 +1,31 @@
 [
   {
-    "key": "C++",
-    "value": "年々モダンになっていく姿に感動する。好きなライブラリはCatch2とfmt。"
-  },
-  {
     "key": "Python",
-    "value": "簡単なスクリプトは基本Pythonで組みます。好きなライブラリはrequests。"
+    "value": "簡単なスクリプトは基本 Python で組みます。"
   },
   {
-    "key": "C#/Unity",
-    "value": "現在、Unityの学習とゲーム開発を並行してやってます。"
+    "key": "C#",
+    "value": "競技プログラミングで遊ぶ際に普段 C++ で実装するのを C# に書き直せないか考え中。"
   },
   {
-    "key": "Swift/iOS",
-    "value": "使用している端末がiPhone/iPadなので作りたいアプリがあると必然的に触る必要がある。"
+    "key": "Swift / iOS",
+    "value": "使用している端末がiPhone / iPadなので作りたいアプリがあると必然的に触る必要がある。"
   },
   {
-    "key": "TypeScript/Vue.js",
-    "value": "ポートフォリオなどで使用。Reactなども学習しているが現在はVueに落ち着いている。"
+    "key": "TypeScript / Vue.js",
+    "value": "ポートフォリオなどで使用。React なども学習しているが現在は Vue に落ち着いている。"
   },
   {
-    "key": "HTML5/CSS3",
+    "key": "HTML5 / CSS3",
     "value": "このポートフォリオを作成するために学習。思った以上に柔軟で強力。"
+  },
+  {
+    "key": "Bash / Sed / Awk",
+    "value": "Windows の mingw 環境を仕事で扱っていたときに学習しました。"
+  },
+  {
+    "key": "正規表現 / SQL",
+    "value": "パズルっぽい感じやチューニング要素がある点が好み。また、言語に依存しないのも Good 。"
   },
   {
     "key": "利用しているサービス",
@@ -29,6 +33,6 @@
   },
   {
     "key": "開発のスタイル",
-    "value": "開発ではTestを重視します。あとLintとFormatter。"
+    "value": "趣味の開発では Test, Lintter, Formatter をなるべく早い段階で CI で回せるようにします。"
   }
 ]
