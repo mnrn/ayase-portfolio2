@@ -15,8 +15,8 @@
 
 <script lang="ts">
 import { Vue, Component, Prop } from 'vue-property-decorator'
-import about from '@/assets/data/about.json'
-import skills from '@/assets/data/skills.json'
+import about from '@/assets/data/ja/about.json'
+import skills from '@/assets/data/ja/skills.json'
 
 export type About = typeof about
 export type Skills = typeof skills

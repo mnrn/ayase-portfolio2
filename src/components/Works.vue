@@ -17,7 +17,7 @@ div#works
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
-import works from '@/assets/data/works.json'
+import works from '@/assets/data/ja/works.json'
 
 @Component
 export default class Works extends Vue {

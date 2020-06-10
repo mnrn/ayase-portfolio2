@@ -8,7 +8,7 @@
 <script lang="ts">
 import { Vue, Component, Prop } from 'vue-property-decorator'
 import KVTable from '@/components/layouts/KVTable.vue'
-import skills from '@/assets/data/skills.json'
+import skills from '@/assets/data/ja/skills.json'
 
 @Component({
   components: {
