@@ -1,7 +1,7 @@
 [
   {
     "key": "Swift / iOS",
-    "value": "使用している端末がiPhone / iPadなので作りたいアプリがあると必然的に触る必要がある。"
+    "value": "使用している端末が iPhone / iPad なので作りたいアプリがあると必然的に触る必要がある。"
   },
   {
     "key": "TypeScript / Vue.js",
@@ -21,7 +21,7 @@
   },
   {
     "key": "利用しているサービス",
-    "value": "以前はAWSやHerokuを利用していましたが、現在は主にFirebaseを利用しています。"
+    "value": "以前は AWS や Heroku を利用していましたが、現在は主に Firebase を利用しています。"
   },
   {
     "key": "開発のスタイル",
