@@ -1,8 +1,10 @@
 <template lang="pug">
   div#about
-    h2 About 基本情報
-    div.table
-      kv-table(:items="about")
+    div.header
+      h2 About
+    div.main
+      div.table
+        kv-table(:items="about.table")
 </template>
 
 <script lang="ts">
@@ -23,5 +25,4 @@ export default class About extends Vue {
 <style lang="stylus" scoped>
 #about
   text-align: center
-  margin-top 100px
 </style>

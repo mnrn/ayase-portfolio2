@@ -18,12 +18,12 @@ import { Vue, Component, Prop } from 'vue-property-decorator'
 import about from '@/assets/data/ja/about.json'
 import skills from '@/assets/data/ja/skills.json'
 
-export type About = typeof about
+export type AboutTable = { 'key': string; 'value': string; 'url': string; }[]
 export type Skills = typeof skills
 
 @Component
 export default class KVTable extends Vue {
-  @Prop() private items!: (About | Skills)
+  @Prop() private items!: (AboutTable | Skills)
 }
 </script>
 
