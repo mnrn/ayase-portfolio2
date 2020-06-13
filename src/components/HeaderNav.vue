@@ -17,7 +17,7 @@ Vue.use(VueScrollTo)
 
 @Component({
   components: {
-    bNav: BNav
+    BNav
   }
 })
 export default class HeaderNav extends Vue {}

@@ -22,7 +22,7 @@ import works from '@/assets/data/ja/works.json'
 
 @Component({
   components: {
-    headline: Headline
+    Headline
   }
 })
 export default class Works extends Vue {
