@@ -11,8 +11,6 @@
 import { Vue, Component, Prop } from 'vue-property-decorator'
 import { BIconEmojiSmile, BIconGraphUp, BIconBrush } from 'bootstrap-vue'
 
-export type Icon = (typeof BIconEmojiSmile | typeof BIconGraphUp | typeof BIconBrush)
-
 @Component({
   components: {
     about: BIconEmojiSmile,
