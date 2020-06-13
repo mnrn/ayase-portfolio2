@@ -1,6 +1,6 @@
 <template lang="pug">
   div#skills
-    h2 Skills やれることーやっていること
+    h2 Skills
     div.table
       kv-table(:items="skills")
 </template>

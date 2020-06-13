@@ -1,7 +1,7 @@
 
 <template lang="pug">
 div#works
-  h2.header Works 作品紹介
+  h2.header Works
   div.wrapper
     article(v-for="work in works" :key="work.id")
       div.work
