@@ -4,7 +4,7 @@
       b-nav-item: a(href="https://twitter.com/localhost5050" target="_blank" class="sns-link" ref="noopener"): font-awesome-icon(:icon="twitter")
       b-nav-item: a(href="https://github.com/mnrn" target="_blank" class="sns-link" ref="noopener"): font-awesome-icon(:icon="github")
       b-nav-item: a(href="https://bookmeter.com/users/1017368" target="_blank" class="sns-link" ref="noopener"): font-awesome-icon(:icon="book")
-    div.copyright-box © 2019 あやせさん
+    div.copyright-box © {{ new Date().getFullYear() }} あやせさん
 </template>
 
 <script lang="ts">
