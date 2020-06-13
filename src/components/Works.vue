@@ -1,7 +1,7 @@
 
 <template lang="pug">
 div#works
-  h2.header Works
+  headline(text="Works")
   div.wrapper
     article(v-for="work in works" :key="work.id")
       div.work
@@ -17,9 +17,14 @@ div#works
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
+import Headline from '@/components/layouts/Headline.vue'
 import works from '@/assets/data/ja/works.json'
 
-@Component
+@Component({
+  components: {
+    headline: Headline
+  }
+})
 export default class Works extends Vue {
   private works = works
 }
@@ -28,8 +33,6 @@ export default class Works extends Vue {
 <style lang="stylus" scoped>
 #works
   margin-top: 100px
-  .header
-    text-align: center
   .wrapper
     margin-top: 50px
     display: flex

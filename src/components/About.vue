@@ -1,7 +1,6 @@
 <template lang="pug">
   div#about
-    div.header
-      h2 About
+    headline(text="About")
     div.main
       div.table
         kv-table(:items="about.table")
@@ -9,11 +8,14 @@
 
 <script lang="ts">
 import { Vue, Component, Prop } from 'vue-property-decorator'
+import { BIconEmojiSmile } from 'bootstrap-vue'
+import Headline from '@/components/layouts/Headline.vue'
 import KVTable from '@/components/layouts/KVTable.vue'
 import about from '@/assets/data/ja/about.json'
 
 @Component({
   components: {
+    headline: Headline,
     kvTable: KVTable
   }
 })
