@@ -4,8 +4,11 @@
 </template>
 
 <style lang="stylus">
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Ubuntu+Mono&display=swap')
 #app
   font-family 'Avenir', Helvetica, Arial, sans-serif
+  font-family 'M PLUS Rounded 1c', sans-serif
+  font-family 'Ubuntu Mono', monospace
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
   [v-clock]
