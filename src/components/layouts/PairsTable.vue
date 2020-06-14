@@ -1,5 +1,5 @@
 <template lang="pug">
-  div#kvtable
+  div#pairs-table
     table
       thead
         tr
@@ -22,13 +22,13 @@ export type AboutTable = { 'key': string; 'value': string; 'url': string; }[]
 export type Skills = typeof skills
 
 @Component
-export default class KVTable extends Vue {
+export default class PairsTable extends Vue {
   @Prop() private items!: (AboutTable | Skills)
 }
 </script>
 
 <style lang="stylus" scoped>
-#kvtable
+#pairs-table
   display: table
   font-weight: bold
   width: auto
