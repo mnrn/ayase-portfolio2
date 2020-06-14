@@ -20,11 +20,11 @@ import FooterNav from '@/components/FooterNav.vue'
 
 @Component({
   components: {
-    about: About,
-    skills: Skills,
-    works: Works,
-    headerNav: HeaderNav,
-    footerNav: FooterNav
+    About,
+    Skills,
+    Works,
+    HeaderNav,
+    FooterNav
   }
 })
 export default class Home extends Vue {}
@@ -32,6 +32,7 @@ export default class Home extends Vue {}
 
 <style lang="stylus" scoped>
 .site-title
+  font-size: 52px
   font-weight: bold
   text-align: center
   color: #2c3e50

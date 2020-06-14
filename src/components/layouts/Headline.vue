@@ -1,10 +1,11 @@
 <template lang="pug">
   div#headline
-    h2(v-cloak) {{text}}&nbsp&nbsp
-    p(class="h2 mb-2")
-      about(v-if='text==="About"')
-      skills(v-else-if='text==="Skills"')
-      works(v-else-if='text==="Works"')
+    div(class="d-flex justify-content-center align-items-center flex-wrap flex-sm-nowrap")
+      h2(v-cloak) {{text}}&nbsp
+      p(class="h1 mb-2")
+        about(v-if='text==="About"')
+        skills(v-else-if='text==="Skills"')
+        works(v-else-if='text==="Works"')
 </template>
 
 <script lang="ts">
@@ -25,12 +26,9 @@ export default class Headline extends Vue {
 
 <style lang="stylus" scoped>
 #headline
-  display: -webkit-flex
-  display: flex
-  -webkit-justify-content: center
-  justify-content: center
-  -webkit-align-items: stretch
-  align-items: stretch
+  h2
+    font-size: 48px
+    font-weight: bold
   text-align: center
   padding-top: 10px
   margin-top: 20px
