@@ -2,11 +2,9 @@
   div#about
     headline(text="About")
     div.main
-      div(class="flexbox d-flex justify-content-center align-items-center flex-wrap flex-sm-nowrap")
-        img(:src="require('@/assets/img/icon.webp')" width="8%" height="auto" class="icon")
-        p.text {{about.text}}
-      div.table
-        pairs-table(:items="about.table")
+      div(class="d-flex justify-content-center align-items-center flex-wrap flex-sm-nowrap")
+        img(:src="require('@/assets/img/icon.webp')" width="20%" height="auto" class="icon")
+        itemize(:texts="about")
 </template>
 
 <script lang="ts">
@@ -14,11 +12,13 @@ import { Vue, Component, Prop } from 'vue-property-decorator'
 import { BIconEmojiSmile } from 'bootstrap-vue'
 import Headline from '@/components/layouts/Headline.vue'
 import PairsTable from '@/components/layouts/PairsTable.vue'
+import Itemize from '@/components/layouts/Itemize.vue'
 import about from '@/assets/data/ja/about.json'
 
 @Component({
   components: {
     Headline,
+    Itemize,
     PairsTable
   }
 })
@@ -29,9 +29,28 @@ export default class About extends Vue {
 
 <style lang="stylus" scoped>
 #about
-  .flexbox
-    .text
-      width: 500px
-    text-align: left
   text-align: center
+  .main
+    position: relative
+    background: #fffde7
+    width: 50%
+    margin: 2em auto
+    padding: 1.5em 1em
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.2)
+    color: #795548
+
+    ::after
+      content: ''
+      position: absolute
+      left: 50%
+      top: -15px
+      margin-left: -75px
+      width: 150px
+      height: 30px
+      background: rgba(245,245,245,0.7)
+      box-shadow: 1px 1px 4px rgba(0,0,0,0.2)
+      transform: rotate(-4deg)
+
+    .icon
+      margin-right: 50px
 </style>

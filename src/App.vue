@@ -41,37 +41,4 @@
         top: 0
         left: 0
         bottom: 0
-  table
-    display: block
-    overflow: auto
-    width: 100%
-    border-collapse: collapse
-    border-spacing: 0
-    padding: 0
-    tr
-      border-top: 1px solid #cccccc
-      background-color: white
-      margin: 0
-      padding: 0
-      :nth-child(2n)
-        background-color: #f8f8f8
-      th
-        font-weight: bold
-        border: 1px solid #cccccc
-        text-align: left
-        margin: 0
-        padding: 10px 30px
-        :first-child
-          margin-top: 0
-        :last-child
-          margin-bottom: 0
-      td
-        border: 1px solid #cccccc
-        text-align: left
-        margin: 0
-        padding: 10px 30px
-        :first-child
-          margin-top: 0
-        :last-child
-          margin-bottom: 0
 </style>

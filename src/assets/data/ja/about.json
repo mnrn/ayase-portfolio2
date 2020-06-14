@@ -1,20 +1,46 @@
-{
-  "text": "3年ほど、ゲーム会社に勤め、現在はプログラミングの講師のアルバイトをしています。\nAmazon でガジェットを漁るのが趣味です。また、ゲーム会社に勤めていたこともあり、ゲームをしばしばやります。（スマブラ、ポケモン、遊戯王など）\nその他、最近では株式証券の売買をはじめました。",
-  "table": [
-    {
-      "key": "GitHub",
-      "value": "mnrn",
-      "url": "https://github.com/mnrn"
-    },
-    {
-      "key": "Qiita",
-      "value": "ayase",
-      "url": "https://qiita.com/ayase"
-    },
-    {
-      "key": "Bookmeter",
-      "value": "あやせ",
-      "url": "https://bookmeter.com/users/1017368"
-    }
-  ]
-}
+[
+  {
+    "name": "かんたんな経歴",
+    "items": [
+      "3年ほど、ゲーム会社に勤める。",
+      "現在はプログラミングの講師のアルバイトをしています。"
+    ]
+  },
+  {
+    "name": "趣味",
+    "items": [
+      "Amazon でガジェットを漁ること。",
+      "ゲーム（スマブラ、ポケモンなど。)"
+    ]
+  },
+  {
+    "name": "音楽",
+    "items": [
+      "好きな音楽のジャンルは Jazz です。"
+    ]
+  },
+  {
+    "name": "最近やってること",
+    "items": [
+      "統計や簿記、情報技術者試験などを学習中です。",
+      "株式証券の売買はじめました。"
+    ]
+  },
+  {
+    "name": " 関連リンク",
+    "items": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/mnrn"
+      },
+      {
+        "name": "Qiita",
+        "url": "https://qiita.com/ayase"
+      },
+      {
+        "name": "Bookmeter",
+        "url": "https://bookmeter.com/users/1017368"
+      }
+    ]
+  }
+]
