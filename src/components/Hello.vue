@@ -6,13 +6,13 @@
         span(class="min button")
         span(class="max button")
       div.text
-</template>
+</template>fir
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
 
 @Component
-export default class First extends Vue {
+export default class Hello extends Vue {
 }
 </script>
 
