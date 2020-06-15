@@ -4,7 +4,7 @@
       header-nav
       h1.site-title
         router-link(to="/") あやせさんのポートフォリオ
-    first
+    //first
     about
     skills
     works
