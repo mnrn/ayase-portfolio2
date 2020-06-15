@@ -8,11 +8,11 @@ div#works
         a(:href="work.url" target="_blank" rel="noopener")
           img(:src="require('@/assets/img/' + work.picture)")
         p.product(v-cloak)
-          a(:href="work.url" target="_blank" ref="noopener") {{work.title}}
+          a(:href="work.url" target="_blank" rel="noopener") {{work.title}}
         p.product-text(v-cloak) {{work.text}}
         p.product-year(v-cloak) 制作日:{{work.year}}
         p.product-repository(v-cloak)
-          a(:href="work.repository" target="_blank" ref="noopener") GitHubリポジトリ
+          a(:href="work.repository" target="_blank" rel="noopener") GitHubリポジトリ
 </template>
 
 <script lang="ts">

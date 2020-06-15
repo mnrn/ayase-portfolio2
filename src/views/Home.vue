@@ -1,14 +1,14 @@
 <template lang="pug">
   div#home
     header
-      header-nav
+      //header-nav
       h1.site-title
         router-link(to="/") あやせさんのポートフォリオ
-    hello
+    // hello
     about
     skills
     works
-    footer-nav
+    //footer-nav
 </template>
 
 <script lang="ts">
