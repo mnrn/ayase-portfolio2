@@ -3,7 +3,7 @@
     headline(text="About")
     div.main
       div(class="d-flex justify-content-center align-items-center flex-wrap flex-sm-nowrap")
-        img(:src="require('@/assets/img/icon.webp')" width="20%" height="auto" class="icon")
+        img(:src="require('@/assets/img/icon.webp')" width="20%" height="auto" class="icon" alt="This is my about icon.")
         itemize(:texts="about")
 </template>
 

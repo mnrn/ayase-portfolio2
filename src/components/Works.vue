@@ -6,7 +6,7 @@ div#works
     article(v-for="work in works" :key="work.id")
       div.work
         a(:href="work.url" target="_blank" rel="noopener")
-          img(:src="require('@/assets/img/' + work.picture)")
+          img(:src="require('@/assets/img/' + work.picture)" alt="My work image.")
         p.product(v-cloak)
           a(:href="work.url" target="_blank" rel="noopener") {{work.title}}
         p.product-text(v-cloak) {{work.text}}
