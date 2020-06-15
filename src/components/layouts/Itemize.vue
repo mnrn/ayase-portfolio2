@@ -27,4 +27,6 @@ export default class Itemize extends Vue {
     li
       text-align: left
       margin-bottom: 0.5em
+  a
+    color: #3344dd
 </style>

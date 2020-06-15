@@ -33,6 +33,8 @@ export default class Works extends Vue {
 <style lang="stylus" scoped>
 #works
   margin-top: 100px
+  a
+    color: #3344dd
   .wrapper
     margin-top: 50px
     display: flex
