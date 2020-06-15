@@ -4,7 +4,7 @@
       a(class="nav-item nav-link" href="https://twitter.com/localhost5050" target="_blank" class="sns-link" rel="noopener"): font-awesome-icon(:icon="twitter")
       a(class="nav-item nav-link" href="https://github.com/mnrn" target="_blank" class="sns-link" rel="noopener"): font-awesome-icon(:icon="github")
       a(class="nav-item nav-link" href="https://bookmeter.com/users/1017368" target="_blank" class="sns-link" rel="noopener"): font-awesome-icon(:icon="book")
-    div.copyright-box © {{ new Date().getFullYear() }} あやせさん
+    div.copyright-box {{ copyRightText }}
 </template>
 
 <script lang="ts">
@@ -22,6 +22,7 @@ export default class FooterNav extends Vue {
   private twitter = faTwitter
   private github = faGithub
   private book = faBook
+  private copyRightText = '© ' + new Date().getFullYear() + ' あやせさん'
 }
 </script>
 
@@ -30,5 +31,5 @@ export default class FooterNav extends Vue {
   text-align: center
   margin-top: 100px
   .copyright-box
-    font-size: 11px
+    font-size: 16px
 </style>
