@@ -1,25 +1,20 @@
 
 <template lang="pug">
   nav#header-nav
-    b-nav(tabs)
-      b-nav-item: a(href="#" v-scroll-to="'#header-nav'") Home
-      b-nav-item: a(href="#" v-scroll-to="'#about'") About
-      b-nav-item: a(href="#" v-scroll-to="'#skills'") Skills
-      b-nav-item: a(href="#" v-scroll-to="'#works'") Works
+    ul(class="nav nav-tabs")
+      li.nav-item: a(class="nav-link" href="#" v-scroll-to="'#header-nav'") Home
+      li.nav-item: a(class="nav-link" href="#" v-scroll-to="'#about'") About
+      li.nav-item: a(class="nav-link" href="#" v-scroll-to="'#skills'") Skills
+      li.nav-item: a(class="nav-link" href="#" v-scroll-to="'#works'") Works
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import { BNav } from 'bootstrap-vue'
 import VueScrollTo from 'vue-scrollto'
 
 Vue.use(VueScrollTo)
 
-@Component({
-  components: {
-    BNav
-  }
-})
+@Component
 export default class HeaderNav extends Vue {}
 </script>
 
@@ -29,6 +24,6 @@ export default class HeaderNav extends Vue {}
   position: fixed
   top: 0
   right: 25px
-  font-size: 25px
+  font-size: 22px
   z-index: 1000
 </style>
