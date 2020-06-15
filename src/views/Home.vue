@@ -4,6 +4,7 @@
       header-nav
       h1.site-title
         router-link(to="/") あやせさんのポートフォリオ
+    first
     about
     skills
     works
@@ -12,6 +13,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
+import First from '@/components/First.vue'
 import About from '@/components/About.vue'
 import Skills from '@/components/Skills.vue'
 import Works from '@/components/Works.vue'
@@ -20,6 +22,7 @@ import FooterNav from '@/components/FooterNav.vue'
 
 @Component({
   components: {
+    First,
     About,
     Skills,
     Works,

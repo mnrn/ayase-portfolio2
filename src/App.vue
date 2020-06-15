@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700&family=Roboto+Mono:wght@500;700&display=swap')
 
 #app
-  font-family 'Roboto Mono', monospace, 'M PLUS Rounded 1c', sans-serif, 'Avenir', Helvetica, Arial, sans-serif
+  font-family 'Roboto Mono', monospace, 'M PLUS Rounded 1c', 'Avenir', Helvetica, Arial, sans-serif
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
   [v-clock]

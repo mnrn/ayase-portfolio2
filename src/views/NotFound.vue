@@ -18,7 +18,7 @@ export default class NotFound extends Vue {
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 /*!
   Copyright (c) ricardpriet
   Released under the MIT license
@@ -29,21 +29,17 @@ export default class NotFound extends Vue {
 
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;800&family=Montserrat+Subrayada:wght@400;700&family=Space+Mono:wght@400;700&display=swap')
 
-*
-  -webkit-box-sizing: border-box
-  -moz-box-sizing: border-box
-  box-sizing: border-box
-
-body
-  background-color: #f4f4f4
-  margin-bottom: 50px
-  color: #bbb
-
 #not-found
+  *
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+  color: #bbb
   font-family: 'Montserrat Subrayada', Helvetica, sans-serif;
   h1
     text-align: center
-    margin: 30px 15px
+    padding: 30px 15px
 
   .zoom-area
     max-width: 490px
