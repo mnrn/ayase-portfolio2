@@ -1,9 +1,9 @@
 <template lang="pug">
   div#footer-nav
     nav(class="nav justify-content-center fa-3x")
-      a(class="nav-item nav-link" href="https://twitter.com/localhost5050" target="_blank" class="sns-link" ref="noopener"): font-awesome-icon(:icon="twitter")
-      a(class="nav-item nav-link" href="https://github.com/mnrn" target="_blank" class="sns-link" ref="noopener"): font-awesome-icon(:icon="github")
-      a(class="nav-item nav-link" href="https://bookmeter.com/users/1017368" target="_blank" class="sns-link" ref="noopener"): font-awesome-icon(:icon="book")
+      a(class="nav-item nav-link" href="https://twitter.com/localhost5050" target="_blank" class="sns-link" rel="noopener"): font-awesome-icon(:icon="twitter")
+      a(class="nav-item nav-link" href="https://github.com/mnrn" target="_blank" class="sns-link" rel="noopener"): font-awesome-icon(:icon="github")
+      a(class="nav-item nav-link" href="https://bookmeter.com/users/1017368" target="_blank" class="sns-link" rel="noopener"): font-awesome-icon(:icon="book")
     div.copyright-box © {{ new Date().getFullYear() }} あやせさん
 </template>
 
