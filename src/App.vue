@@ -4,8 +4,7 @@
 </template>
 
 <style lang="stylus">
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700&family=Roboto+Mono:wght@500;700&display=swap')
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=M+PLUS+Rounded+1c:wght@500;700&family=Roboto+Mono:wght@500;700&display=swap')
 #app
   font-family 'Roboto Mono', monospace, 'M PLUS Rounded 1c', 'Avenir', Helvetica, Arial, sans-serif
   -webkit-font-smoothing antialiased

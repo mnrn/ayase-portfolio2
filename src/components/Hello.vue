@@ -6,13 +6,28 @@
         span(class="min button")
         span(class="max button")
       div.text
-</template>fir
+</template>
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
+import Typed from 'typed.js'
 
 @Component
 export default class Hello extends Vue {
+  private mounted () {
+    const typed = new Typed('.text',
+      {
+        strings: [
+          'Hello! Thanks for the view. <br /><br /> ^1000' +
+          "I'm one who enjoys development! <br /><br />  ^1000" +
+          'This is my portfolio! <br /> ^1000' +
+          "Below you'll find some of my recent developments. <br /><br /> ^1000" +
+          'Please make yourself at home!'
+        ],
+        typeSpeed: 0,
+        showCursor: false
+      })
+  }
 }
 </script>
 
@@ -30,7 +45,8 @@ export default class Hello extends Vue {
   margin: 100px 0
   background: #000
   color: #fff
-  font-family: "Lucida Console", Monaco, monospace
+  font-family: 'Inconsolata', Monaco, monospace
+  font-size: 18px
   line-height: 1.5
 
   a
@@ -46,8 +62,8 @@ export default class Hello extends Vue {
     min-height: 50vh
 
     .content
-      width: 500px
-      height: 300px
+      width: 550px
+      height: 330px
       position: absolute
       top: 50%
       left: 50%
