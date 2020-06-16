@@ -27,8 +27,6 @@ export default class NotFound extends Vue {
   pug と stylus に対応させる点やホームページ用にもろもろ改変させていただきました。
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;800&family=Montserrat+Subrayada:wght@400;700&family=Space+Mono:wght@400;700&display=swap')
-
 #not-found
   *
     -webkit-box-sizing: border-box
@@ -36,7 +34,7 @@ export default class NotFound extends Vue {
     box-sizing: border-box
 
   color: #bbb
-  font-family: 'Montserrat Subrayada', Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   h1
     text-align: center
     padding: 30px 15px
@@ -64,12 +62,12 @@ export default class NotFound extends Vue {
     text-decoration: none
     margin-top: 50px
     letter-spacing: 1px
-    font-family: 'Space Mono', monospace
+    font-family: 'Roboto Mono', monospace
 
   .error-container
     text-align: center
     font-size: 180px
-    font-family: 'Catamaran', sans-serif
+    font-family: Helvetica, sans-serif
     font-weight: 800
     margin: 20px 15px
 
