@@ -3,20 +3,13 @@
     div(class="d-flex justify-content-center align-items-center flex-wrap flex-sm-nowrap")
       h2(v-cloak) {{text}}&nbsp
       p(class="h1 mb-2")
-        about(v-if='text==="About"')
-        skills(v-else-if='text==="Skills"')
-        works(v-else-if='text==="Works"')
 </template>
 
 <script lang="ts">
 import { Vue, Component, Prop } from 'vue-property-decorator'
-import { BIconEmojiSmile, BIconGraphUp, BIconBrush } from 'bootstrap-vue'
 
 @Component({
   components: {
-    about: BIconEmojiSmile,
-    skills: BIconGraphUp,
-    works: BIconBrush
   }
 })
 export default class Headline extends Vue {

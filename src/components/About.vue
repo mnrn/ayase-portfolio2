@@ -9,7 +9,6 @@
 
 <script lang="ts">
 import { Vue, Component, Prop } from 'vue-property-decorator'
-import { BIconEmojiSmile } from 'bootstrap-vue'
 import Headline from '@/components/layouts/Headline.vue'
 import PairsTable from '@/components/layouts/PairsTable.vue'
 import Itemize from '@/components/layouts/Itemize.vue'
@@ -38,7 +37,6 @@ export default class About extends Vue {
     padding: 1.5em 1em
     box-shadow: 1px 1px 4px rgba(0,0,0,0.2)
     color: #795548
-
     ::after
       content: ''
       position: absolute
@@ -50,7 +48,6 @@ export default class About extends Vue {
       background: rgba(245,245,245,0.7)
       box-shadow: 1px 1px 4px rgba(0,0,0,0.2)
       transform: rotate(-4deg)
-
     .icon
       margin-right: 50px
 </style>
