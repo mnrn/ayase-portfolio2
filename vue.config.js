@@ -1,8 +1,16 @@
 module.exports = {
   chainWebpack: (config) => {
-    config.plugins.delete('prefetch')
-    config.plugin('preload').tap(include => {
-      return [include, 'asyncChunks']
+    /*
+    config.plugin('prefetch').tap(args => {
+      return ''
     })
+    */
+    // config.plugin('prefetch').delete()
+    /*
+    config.plugin('preload').tap(args => {
+      args[0].include = 'allChunks'
+      return args
+    })
+    */
   }
 }
