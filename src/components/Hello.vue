@@ -45,7 +45,7 @@ export default class Hello extends Vue {
   margin: 100px 0
   background: #000
   color: #fff
-  font-family: 'Inconsolata', Monaco, monospace
+  font-family: Monaco, monospace
   font-size: 18px
   line-height: 1.5
 

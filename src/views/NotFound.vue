@@ -34,7 +34,7 @@ export default class NotFound extends Vue {
     box-sizing: border-box
 
   color: #bbb
-  font-family: Helvetica, sans-serif;
+
   h1
     text-align: center
     padding: 30px 15px
@@ -62,12 +62,10 @@ export default class NotFound extends Vue {
     text-decoration: none
     margin-top: 50px
     letter-spacing: 1px
-    font-family: 'Roboto Mono', monospace
 
   .error-container
     text-align: center
     font-size: 180px
-    font-family: Helvetica, sans-serif
     font-weight: 800
     margin: 20px 15px
 
