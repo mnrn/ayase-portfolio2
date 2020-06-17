@@ -62,8 +62,8 @@ export default class Hello extends Vue {
     min-height: 50vh
 
     .content
-      width: 550px
-      height: 330px
+      width: 600px
+      height: 360px
       position: absolute
       top: 50%
       left: 50%
