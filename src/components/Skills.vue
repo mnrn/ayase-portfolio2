@@ -1,8 +1,11 @@
 <template lang="pug">
   div#skills
     headline(text="Skills")
-    div.table
-      pairs-table(:items="skills")
+    div.main
+      div.first
+        p 具体的なスキルのレベルは <a href="https://github.com/mnrn" target="_blank" rel="noopener"> GitHub</a> から該当コードを見ていただくことになります。
+      div.table
+        pairs-table(:items="skills")
 </template>
 
 <script lang="ts">
@@ -27,5 +30,15 @@ export default class Skills extends Vue {
 <style lang="stylus" scoped>
 #skills
   text-align: center
-  margin-top: 100px
+  //margin-top: 100px
+  padding: 50px 0
+
+  a
+    color: #3344dd
+
+  .main
+    font-size: 20px
+    .first
+      font-weight: 500
+      margin: 10px 10px
 </style>

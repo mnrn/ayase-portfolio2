@@ -1,9 +1,6 @@
 <template lang="pug">
   div#home
-    header
-      header-nav
-      h1.site-title
-        router-link(to="/") あやせさんのポートフォリオ
+    header-nav
     hello
     about
     skills

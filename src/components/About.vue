@@ -28,6 +28,7 @@ export default class About extends Vue {
 
 <style lang="stylus" scoped>
 #about
+  font-size: 18px
   text-align: center
   .main
     position: relative

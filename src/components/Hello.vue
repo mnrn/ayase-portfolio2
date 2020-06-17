@@ -59,7 +59,7 @@ export default class Hello extends Vue {
     background-size: cover
     background-repeat: no-repeat
     background-position: center
-    min-height: 50vh
+    min-height: 80vh
 
     .content
       width: 600px
