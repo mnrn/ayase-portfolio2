@@ -6,8 +6,10 @@ div#works
     div.card(v-for="work in works" :key="work.id")
       div.card-img(class="border-bottom d-flex justify-content-center align-items-center flex-wrap flex-sm-nowrap")
         a.card-link(:href="work.url !== '' ? work.url : work.repo" target="_blank" rel="noopener")
-          img.card-img-top(v-if="work.pic.endsWith('.webp')" :src="require('@/assets/img/' + work.pic)" alt="My work image.")
-          img(v-else :src="work.pic" alt="My work image." height="300px" width="auto")
+          img(v-if="work.pic.startsWith('https')" :src="work.pic" alt="My work image." height="300px" width="auto")
+          picture(v-else)
+            source(type="image/webp" :srcset="require('@/assets/img/' + work.pic + '.webp')")
+            img.card-img-top(:src="require('@/assets/img/' + work.pic + '.png')" alt="My work image.")
       div.card-body
         p.card-title(v-cloak) {{work.title}}
         div(v-for="(text, index) in work.texts" :key="index")

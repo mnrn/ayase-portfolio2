@@ -7,7 +7,7 @@
     "descriptions": "",
     "texts": ["このサイト自身のことです。 Vue.js と Firebase でつくりました。", "また、開発速度をあげるために Bootstrap も使いました。"],
     "url": "https://ayase-portfolio.firebaseapp.com",
-    "pic" : "portfolio.webp"
+    "pic" : "portfolio"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "descriptions": "",
     "texts": ["AtCoder や AOJ などの過去問の解答置き場です。", "もうちょっと過去問やり終えたら実際にコンテスト出場してみたいです。(時間が合えば)"],
     "url": "",
-    "pic": "xxx-coder.webp"
+    "pic": "xxx-coder"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "descriptions": "",
     "texts": ["Google Cloud Vision API で読み取った JSON を Firebase Database へ送信します。", "レシートの規格が統一されていないため、パースはいったんやめておきました。"],
     "url": "",
-    "pic": "reciept.webp"
+    "pic": "reciept"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "descriptions": "",
     "texts": ["もともとは Vue.js と Firebase で 1~2日程度で作った作品です。", "結局、TypeScript で書き直し、E2E テストも導入することにしました。"],
     "url": "https://pokemon-stats-calc.firebaseapp.com/",
-    "pic": "poke-vue.webp"
+    "pic": "poke-vue"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "descriptions": "",
     "texts": ["zsh, tmux, vim などの設定ファイル置き場です。", "Mac OSX や Ubuntu, CentOS などで使ってます。"],
     "url": "",
-    "pic": "dotfiles.webp"
+    "pic": "dotfiles"
   },
   {
     "id": 6,
