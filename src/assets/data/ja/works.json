@@ -52,7 +52,7 @@
   {
     "id": 6,
     "repo": "https://github.com/mnrn/Introduction-to-Algorithms",
-    "title": "書籍: アルゴリズムイントロダクションの実装。",
+    "title": "書籍: アルゴリズムイントロダクションの実装",
     "year": "2019/9",
     "descriptions": "",
     "texts": ["書籍:アルゴリズムイントロダクションの C++ / Fortran / Python / Cilk Plus による実装です。", "学生時代に書いていたコードなので結構古いです。"],
