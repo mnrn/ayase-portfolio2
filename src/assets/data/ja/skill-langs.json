@@ -1,0 +1,245 @@
+{
+    "texts": [
+        "プログラミング言語の思想に触れるのが好きなので、いろいろやっています。今回はレベルを10段階までに分けて評価し、6以上となるもので自分がこれからも使いそうな言語にのみ絞りました。",
+        "お気に入りのライブラリにあげているのは個人または業務で扱ったものとなります。"
+    ],
+    "langs": [
+        {
+            "name": "C++",
+            "svg": [
+                "https://cdn.svgporn.com/logos/c-plusplus.svg"
+            ],
+            "lv": 85,
+            "descript": "学生時代からやっているため、7〜8年程度触っていて、競技プログラミングなども C++ で記述しています。また、業務でも使った経験があり、アトミック操作や排他制御など複雑な処理も行っていました。",
+            "libs": [
+                {
+                    "name": "Boost",
+                    "url": "https://github.com/boostorg/boost"
+                },
+                {
+                    "name": "fmt",
+                    "url": "https://github.com/fmtlib/fmt"
+                },
+                {
+                    "name": "spdlog",
+                    "url": "https://github.com/gabime/spdlog"
+                }
+            ],
+            "repo": {
+                "text": "個人のリポジトリとなるとアルゴリズムなどの実装関連にどうしても寄ってしまいます。",
+                "repos": [
+                    {
+                        "name": "xxx-coder",
+                        "url": "https://github.com/mnrn/xxx-coder",
+                        "texts": [
+                            "プログラミングコンテストの過去問の解答置き場です。",
+                            "AtCoder の ABC 問題ばかりですが、それ以外もあります。",
+                            "↓の「Works」のところにもあります。"
+                        ]
+                    },
+                    {
+                        "name": "グラフアルゴリズム",
+                        "url": "https://github.com/mnrn/graph",
+                        "texts": [
+                            "グラフアルゴリズムの実装集です。",
+                            "http://judge.u-aizu.ac.jp/onlinejudge/ にて動作確認しています。"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Java",
+            "svg": [
+                "https://cdn.svgporn.com/logos/java.svg"
+            ],
+            "lv": 70,
+            "descript": "学生時代によく触っていました。インターンの頃も使っており、結構覚えのある言語になっています。",
+            "libs": [
+                {
+                    "name": "vavr",
+                    "url": "https://github.com/vavr-io/vavr"
+                }
+            ],
+            "repo": {
+                "text": "基本的に学生時代に書いたコードになりますが、そもそも C++ の知識の流用が簡単な領域であるためそこまで気にならずに書けます。",
+                "repos": [
+                    {
+                        "name": "オセロゲーム",
+                        "url": "https://github.com/mnrn/othello",
+                        "texts": [
+                            "インターン生のころに空いた時間に作ったオセロのゲームです。",
+                            "描画処理と AI の盤面評価方法にかなり改善の余地があります。",
+                            "時間があれば、gradle などで作り直したいと思いました。"
+                        ]
+                    },
+                    {
+                        "name": "RSA 公開鍵暗号系の実装例",
+                        "url": "https://gist.github.com/mnrn/d662c34c3e36264d9e97cdc8ebb7474a",
+                        "texts": [
+                            "RSA 公開鍵暗号系の実装例になります。",
+                            "コードの理解には少しだけ整数論の知識が必要になりますが、短く、内容も複雑ではないため難しくはないでしょう。",
+                            "標準入力で受け取った文字列を暗号化 -> 復号化 という一連の流れを行っています。"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Python",
+            "svg": [
+                "https://cdn.svgporn.com/logos/python.svg"
+            ],
+            "lv": 70,
+            "descript": "学生時代からやっているため、C++ と同じくらい長く触っています。簡単なスクリプトは基本 Python で記述しています。また、業務でも使った経験があり、Python スクリプトで業務効率の改善を行っていました。",
+            "libs": [
+                {
+                    "name": "requests",
+                    "url": "https://github.com/psf/requests"
+                },
+                {
+                    "name": "BeautifulSoup",
+                    "url": "https://code.launchpad.net/~leonardr/beautifulsoup/bs4"
+                },
+                {
+                    "name": "flask",
+                    "url": "https://github.com/pallets/flask"
+                }
+            ],
+            "repo": {
+                "text": "プライベートな問題を解決するために使うことが多いため、公開できるものは以下のものだけになります。",
+                "repos": [
+                    {
+                        "name": "フロイドの循環検出アルゴリズム",
+                        "url": "https://gist.github.com/mnrn/472501df9e4fac642c886b351d117f5b",
+                        "texts": [
+                            "フロイドの循環検出アルゴリズムの実装例です。",
+                            "https://www.ap-siken.com/kakomon/26_haru/pm03.html の問題に対する解答です。"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Swift",
+            "svg": [
+                "https://cdn.svgporn.com/logos/swift.svg"
+            ],
+            "lv": 65,
+            "descript": "昔から触っており、今はプログラミング講師として教える側になっています。言語の性質上、アプリに直結しがちですが、アプリ特有の仕様についてはもう少し慣れが必要かもしれません。",
+            "libs": [
+                {
+                    "name": "Alamofire",
+                    "url": "https://github.com/Alamofire/Alamofire"
+                },
+                {
+                    "name": "SwiftyJSON",
+                    "url": "https://github.com/SwiftyJSON/SwiftyJSON"
+                },
+                {
+                    "name": "Quick",
+                    "url": "https://github.com/Quick/Quick"
+                }
+            ],
+            "repo": {
+                "text": "もしかしたら時間があれば少し真面目なアプリを作るかもしれません。",
+                "repos": [
+                    {
+                        "name": "フードトラッカー",
+                        "url": "https://github.com/mnrn/FoodTracker",
+                        "texts": [
+                            "Apple 公式のチュートリアルの産物です。",
+                            "NavigationController と StackView の使い方を覚えました。"
+                        ]
+                    },
+                    {
+                        "name": "レシート読み取りアプリ",
+                        "url": "https://github.com/mnrn/ReadReceipt",
+                        "texts": [
+                            "Google Cloud Vision API で読み取った JSON を HTTP 通信 により、Firebase Database へ送信します。",
+                            "レシートの規格が統一されていないため、色々やるのには時間がかかりそうだとしいったん開発を止めています。",
+                            "↓の「Works」のところにもあります。"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "TypeScript / JavaScript",
+            "svg": [
+                "https://cdn.svgporn.com/logos/typescript-icon.svg",
+                "https://cdn.svgporn.com/logos/javascript.svg"
+            ],
+            "lv": 70,
+            "descript": "TypeScript は JavaScript のスーパーセットなので一緒にしました。学生時代に JavaScript と WebGL をよく使いデバッグしていました。また、業務でも jQuery や Ajax などを使った開発経験があります。",
+            "libs": [
+                {
+                    "name": "vue.js",
+                    "url": "https://github.com/vuejs/vue"
+                },
+                {
+                    "name": "axios",
+                    "url": "https://github.com/axios/axios"
+                },
+                {
+                    "name": "log4js-node",
+                    "url": "https://github.com/log4js-node/log4js-node"
+                }
+            ],
+            "repo": {
+                "text": "どちらも TypeScript と Vue の作品となります。",
+                "repos": [
+                    {
+                        "name": "ポートフォリオ",
+                        "url": "https://github.com/mnrn/typed-portfolio",
+                        "texts": [
+                            "このポートフォリオです。",
+                            "↓の「Works」のところにもあります。",
+                            "Google Lighthouse の Performance でそれなりのスコアを叩き出すのに苦労しました。",
+                            "それ以外の部分は簡単だったのですが。。。"
+                        ]
+                    },
+                    {
+                        "name": "ポケモンステータス計算",
+                        "url": "https://github.com/mnrn/poke-vue",
+                        "texts": [
+                            "ポケモンをやっていて、必要になったので作ったサイトです。",
+                            "第8世代には対応中になります。"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Kotlin",
+            "svg": [
+                "https://cdn.svgporn.com/logos/kotlin.svg"
+            ],
+            "lv": 70,
+            "descript": "個人の新規プロジェクトであれば、Java の代わりに Kotlin を採用する感じでしょうか。Java とレベルを同じにしましたが、結構 Java とは違った部分も見せるため、そこは常に学習が必要と感じました。",
+            "libs": [],
+            "repo": {
+                "text": "どちらも基本的な内容になりますが、gradle で作られたプロジェクトなので応用がしやすいです。",
+                "repos": [
+                    {
+                        "name": "テスト駆動開発の例",
+                        "url": "https://github.com/mnrn/tdd-example",
+                        "texts": [
+                            "Jacoco でコードカバレッジを計算する例としての gradle プロジェクトです。",
+                            "もともと書籍にある Java のコードを kotlin に書き直すというのが趣旨のため、無理にカバレッジを上げていません。"
+                        ]
+                    },
+                    {
+                        "name": "Kotlinで Android アプリ作成例",
+                        "url": "https://github.com/mnrn/kotlin-android-example",
+                        "texts": [
+                            "Kotlin と gradle での Android アプリの作成例となります。",
+                            "これを clone して Android アプリの作成が可能です。",
+                            "現在、あまりお金がないため、Android 実機での確認ができないのが残念です。"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

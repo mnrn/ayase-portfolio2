@@ -32,6 +32,10 @@ export default class About extends Vue {
 #about
   font-size: 18px
   text-align: center
+
+  /*!
+  おそらく元ネタは https://blog.minimal-green.com/entry/2017/01/14/211630 になります。
+  */
   .main
     position: relative
     background: #fffde7
