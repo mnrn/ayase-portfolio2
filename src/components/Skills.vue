@@ -3,22 +3,29 @@
     headline(text="Skills")
     div.main
       div.card-deck
-        skill-langs
+        skill-subroot(title="プログラミング言語" :subroot="langs")
+        skill-subroot(title="OS" :subroot="os")
 </template>
 
 <script lang="ts">
 import { Vue, Component, Prop } from 'vue-property-decorator'
 import Headline from '@/components/layouts/Headline.vue'
 import PairsTable from '@/components/layouts/PairsTable.vue'
-import SkillLangs from '@/components/layouts/SkillLangs.vue'
+import SkillSubroot from '@/components/layouts/SkillSubroot.vue'
+
+import { SkillSubtree } from '@/static/ts/skill'
+import langs from '@/assets/data/ja/skill-langs.json'
+import os from '@/assets/data/ja/skill-os.json'
 
 @Component({
   components: {
     Headline,
-    SkillLangs
+    SkillSubroot
   }
 })
 export default class Skills extends Vue {
+  private langs: SkillSubtree = langs
+  private os: SkillSubtree = os
 }
 </script>
 

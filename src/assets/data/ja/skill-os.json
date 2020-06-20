@@ -1,0 +1,32 @@
+{
+    "texts": [
+        "結局の所、プロセスやメモリ、I/O の管理に関する基本を抑えておけば、OS が違ってもいくらでも応用が効きます。",
+        "なので、あんまりこの項目は意味がないようにも思えますが、念の為記述しておきます。"
+    ],
+    "skills": [
+        {
+            "name": "MacOSX",
+            "svg": [
+                "https://cdn.svgporn.com/logos/apple.svg"
+            ],
+            "lv": 75,
+            "descript": "プログラミングを学び始めたころから使い続けている OS で業務でも使っております。"
+        },
+        {
+            "name": "Linux",
+            "svg": [
+                "https://cdn.svgporn.com/logos/linux-tux.svg"
+            ],
+            "lv": 70,
+            "descript": "一時期メインPCとして Ubuntu を使っており、業務では CentOS を使用していました。家では Raspbian と Docker で遊んでいます。"
+        },
+        {
+            "name": "Windows",
+            "svg": [
+                "https://cdn.svgporn.com/logos/microsoft-windows.svg"
+            ],
+            "lv": 70,
+            "descript": "業務でも付き合いは長く、組み込み Windows も経験があります。エディションにもよりますが、個人的には一番難しい OS だと思います。"
+        }
+    ]
+}

@@ -1,33 +1,31 @@
 <template lang="pug">
-  div#skill-lang-descript
+  div#skill-descript
     div.talking-box
-      div.talk-text {{lang.descript}}
+      div.talk-text {{skill.descript}}
 </template>
 
 <script lang="ts">
 import { Vue, Component, Prop } from 'vue-property-decorator'
-import slangs from '@/assets/data/ja/skill-langs.json'
-
-export type Lang = typeof slangs.langs[0]
+import { Skill } from '@/static/ts/skill'
 
 @Component
-export default class SkillLangs extends Vue {
-  @Prop() private lang!: Lang
+export default class SkillDescript extends Vue {
+  @Prop() private skill!: Skill
 }
 </script>
 
 <style lang="stylus" scoped>
-#skill-lang-descript
-  max-width: 600px
+#skill-descript
+  max-width: 400px
+  font-size: 15px
   .talking-box
     position: relative
     display: inline-block
-    margin: 1.5em 0
+    margin: 1.5em 0 1.5em 15px
     padding: 7px 10px
     min-width: 120px
     max-width: 100%
     color: #555
-    font-size: 16px
     background: #FFF
     border: solid 3px #555
     box-sizing: border-box
@@ -36,21 +34,21 @@ export default class SkillLangs extends Vue {
   .talking-box:before
     content: ""
     position: absolute
-    top: -24px
-    left: 5%
-    margin-left: -15px
+    top: 50%
+    left: -24px
+    margin-top: -12px
     border: 12px solid transparent
-    border-bottom: 12px solid #FFF
+    border-right: 12px solid #FFF
     z-index: 2
 
   .talking-box:after
     content: ""
     position: absolute
-    top: -30px
-    left: 5%
-    margin-left: -17px
+    top: 50%
+    left: -30px
+    margin-top: -14px
     border: 14px solid transparent
-    border-bottom: 14px solid #555
+    border-right: 14px solid #555
     z-index: 1
 
   .talking-box p
