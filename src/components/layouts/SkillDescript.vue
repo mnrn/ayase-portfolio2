@@ -16,8 +16,8 @@ export default class SkillDescript extends Vue {
 
 <style lang="stylus" scoped>
 #skill-descript
-  max-width: 400px
   font-size: 15px
+  text-align: left
   .talking-box
     position: relative
     display: inline-block

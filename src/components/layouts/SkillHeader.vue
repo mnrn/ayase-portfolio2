@@ -1,8 +1,8 @@
 <template lang="pug">
   div#skill-header(class="align-self-center mr-3 d-flex-inline justify-content-start")
     div.skill-name(class="d-flex justify-content-start")
-      h4 {{skill.name}}&nbsp
-      div(v-for="svg in skill.svg"): img(:src="svg", width="20" height="auto")
+      p {{skill.name}}&nbsp
+      //div(v-for="svg in skill.svg"): img(:src="svg", width="20" height="auto")
     div.skill-lv(class="d-flex-inline justify-content-start")
       div.progress
         div.progress-bar.progress-bar-striped(role="progressbar" :style="'width: ' + skill.lv + '%'" :aria-valuenow="skill.lv" aria-valuemin="0" aria-valuemax="100")
@@ -24,8 +24,10 @@ export default class SkillHeader extends Vue {
 
 <style lang="stylus" scoped>
 #skill-header
-  font-size: 16px
   width: 100px
+  p
+    font-size: 18px
+    font-weight: bolder
   .skill-lv
     font-weight: bolder
 </style>

@@ -1,0 +1,48 @@
+{
+    "texts": [
+        "業務で扱ったものでお気に入りのものを個人でも使っています。",
+        "逆に、個人でお気に入りのものを業務で扱った経験は残念ながらあまりありません。"
+    ],
+    "skills": [
+        {
+            "name": "GitHub",
+            "svg": [
+                "https://cdn.svgporn.com/logos/github-icon.svg"
+            ],
+            "lv": 70,
+            "descript": "Git と同様に長いこと使用しています。pull request や isuue なども楽しんでやってます。"
+        },
+        {
+            "name": "Slack",
+            "svg": [
+                "https://cdn.svgporn.com/logos/slack-icon.svg"
+            ],
+            "lv": 75,
+            "descript": "業務で長いこと使っています。API を使い bot なども作成しました。"
+        },
+        {
+            "name": "Confluence",
+            "svg": [
+                "https://cdn.svgporn.com/logos/confluence.svg"
+            ],
+            "lv": 70,
+            "descript": "個人では使っていませんが、割と直感的に使えるなと感じました。"
+        },
+        {
+            "name": "Trello",
+            "svg": [
+                "https://cdn.svgporn.com/logos/trello.svg"
+            ],
+            "lv": 65,
+            "descript": "業務で使いましたが、使いやすいので個人でも使っています。"
+        },
+        {
+            "name": "Travis CI",
+            "svg": [
+                "https://cdn.svgporn.com/logos/travis-ci.svg"
+            ],
+            "lv": 65,
+            "descript": "個人で使っています。時間があれば Circle CI と比較するかもしれません。"
+        }
+    ]
+}

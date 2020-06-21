@@ -1,0 +1,40 @@
+{
+    "texts": [
+        "今までで挙げられなかったものを挙げておきます。",
+        "必ずしもどれも得意というわけではないですが、それなりに得意なものを挙げておきます。"
+    ],
+    "skills": [
+        {
+            "name": "Vue.js",
+            "svg": [
+                "https://cdn.svgporn.com/logos/vue.svg"
+            ],
+            "lv": 70,
+            "descript": "React も学びましたが、個人用途ではこちらのほうが使いやすいと感じました。"
+        },
+        {
+            "name": "Firebase",
+            "svg": [
+                "https://firebase.google.com/downloads/brand-guidelines/SVG/logo-logomark.svg?hl=ja"
+            ],
+            "lv": 65,
+            "descript": "Authentication, Database, Hosting あたりを使用しています。個人で使う分には一番使いやすいと思います。"
+        },
+        {
+            "name": "Git",
+            "svg": [
+                "https://cdn.svgporn.com/logos/git-icon.svg"
+            ],
+            "lv": 75,
+            "descript": "好きなコマンドラインツールの一つでオライリーの書籍や公式ガイドを結構読んでいます。"
+        },
+        {
+            "name": "SearchTools",
+            "svg": [
+                "https://upload.wikimedia.org/wikipedia/commons/c/cd/OOjs_UI_icon_regular-expression.svg"
+            ],
+            "lv": 80,
+            "descript": "100人以上の大規模開発に携わった際に必須だと感じました。最近では、grep や find の次世代版の rg や fd など使っています。"
+        }
+    ]
+}

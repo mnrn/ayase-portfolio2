@@ -35,6 +35,9 @@ export default class SkillSubroot extends Vue {
   font-size: 16px
   .skills-subtitle
     margin: 20px 10px
-  .media-body
-    min-width: 500px
+.card
+  min-width: 500px
+  max-width: 767px
+.card-body
+  min-height: 170px
 </style>
