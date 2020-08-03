@@ -22,7 +22,7 @@
   {
     "id": 3,
     "repo": "https://github.com/mnrn/ReadReciept",
-    "title": "レシート読み取りアプリ",
+    "title": "レシート読み取り iOS アプリ",
     "year": "2019/9",
     "descriptions": "",
     "texts": ["Google Cloud Vision API で読み取った JSON を Firebase Database へ送信します。", "レシートの規格が統一されていないため、パースはいったんやめておきました。"],
