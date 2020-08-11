@@ -13,29 +13,28 @@
             "descript": "学生時代から長い間使っています。業務でも使った経験があり、アトミック操作や排他制御など複雑な処理も行っていました。"
         },
         {
-            "name": "Swift",
+            "name": "Python",
             "svg": [
-                "https://upload.wikimedia.org/wikipedia/commons/9/9d/Swift_logo.svg"
+                "https://cdn.svgporn.com/logos/python.svg"
             ],
-            "lv": 70,
-            "descript": "今はプログラミング講師として教える側になっています。アプリ特有の仕様についてはもう少し慣れが必要かもしれません。"
+            "lv": 80,
+            "descript": "C++ と同じくらい長く触っています。また、業務でも使った経験があり、Python スクリプトで業務効率の改善を行っていました。"
         },
         {
             "name": "JavaScript",
             "svg": [
-                "https://cdn.svgporn.com/logos/typescript-icon.svg",
                 "https://cdn.svgporn.com/logos/javascript.svg"
             ],
-            "lv": 70,
+            "lv": 75,
             "descript": "現在は Vue.js や Express などで遊んでいます。また、業務でも jQuery や Ajax などを使った開発経験があります。"
         },
         {
-            "name": "Kotlin",
+            "name": "Java",
             "svg": [
-                "https://cdn.svgporn.com/logos/kotlin.svg"
+                "https://cdn.svgporn.com/logos/java.svg"
             ],
             "lv": 70,
-            "descript": "個人の新規プロジェクトであれば、Java の代わりに Kotlin を採用する感じでしょうか。Gradle で Android アプリの作成など行っています。"
+            "descript": "学生時代によく触っていました。インターンの頃も使っており、結構覚えのある言語になっています。"
         }
     ]
 }
