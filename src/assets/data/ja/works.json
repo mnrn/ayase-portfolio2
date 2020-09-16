@@ -5,12 +5,22 @@
     "title": "ポートフォリオ",
     "year": "2019/9",
     "descriptions": "",
-    "texts": ["このサイト自身のことです。 Vue.js と Firebase でつくりました。", "また、開発速度をあげるために Bootstrap も使いました。"],
+    "texts": ["Vue.js と Bootstrap, Firebase を使いました。", "Google Light House のスコアを上げるために少しがんばりました。レスポンシブ対応済みです。"],
     "url": "https://ayase-portfolio.firebaseapp.com",
     "pic" : "portfolio"
   },
   {
     "id": 2,
+    "repo": "https://github.com/mnrn/game-memo",
+    "title": "ゲームメモ",
+    "year": "2020/9",
+    "descriptions": "",
+    "texts": ["ゲームもしくは低レイヤのプログラミングをする際に覚えておくと良い Tips 集です。", "テンプレートばかりになりましたがコードの読み書きに役に立つと思います。"],
+    "url": "",
+    "pic": "https://4.bp.blogspot.com/-DeU_6I8CFOA/UUFxvbV2TUI/AAAAAAAAO0U/WfgogfFs5sw/s1600/portable_game.png"
+  },
+  {
+    "id": 3,
     "repo": "https://github.com/mnrn/xxx-coder",
     "title": "プログラミングコンテストの過去問の解答置き場",
     "year": "2019/9",
@@ -18,16 +28,6 @@
     "texts": ["AtCoder や AOJ などの過去問の解答置き場です。", "もうちょっと過去問やり終えたら実際にコンテスト出場してみたいです。(時間が合えば)"],
     "url": "",
     "pic": "xxx-coder"
-  },
-  {
-    "id": 3,
-    "repo": "https://github.com/mnrn/ReadReciept",
-    "title": "レシート読み取り iOS アプリ",
-    "year": "2019/9",
-    "descriptions": "",
-    "texts": ["Google Cloud Vision API で読み取った JSON を Firebase Database へ送信します。", "レシートの規格が統一されていないため、パースはいったんやめておきました。"],
-    "url": "",
-    "pic": "reciept"
   },
   {
     "id": 4,

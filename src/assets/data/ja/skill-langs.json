@@ -29,12 +29,12 @@
             "descript": "現在は Vue.js や Express などで遊んでいます。また、業務でも jQuery や Ajax などを使った開発経験があります。"
         },
         {
-            "name": "Java",
+            "name": "C#",
             "svg": [
                 "https://cdn.svgporn.com/logos/java.svg"
             ],
-            "lv": 70,
-            "descript": "学生時代によく触っていました。インターンの頃も使っており、結構覚えのある言語になっています。"
+            "lv": 75,
+            "descript": "業務では WPF や WinForm を用いてツールを作成していました。講師としては Unity を教えています。"
         }
     ]
 }

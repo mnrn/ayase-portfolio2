@@ -9,7 +9,7 @@ div#works
           img(v-if="work.pic.startsWith('https')" :src="work.pic" alt="My work image." height="300px" width="auto")
           picture(v-else)
             source(type="image/webp" :srcset="require('@/assets/img/' + work.pic + '.webp')")
-            img.card-img-top(:src="require('@/assets/img/' + work.pic + '.png')" alt="My work image.")
+            img.card-img-top(:src="require('@/assets/img/' + work.pic + '.png')" alt="My work image." height="300px" width="auto")
       div.card-body
         p.card-title(v-cloak) {{work.title}}
         div(v-for="(text, index) in work.texts" :key="index")
