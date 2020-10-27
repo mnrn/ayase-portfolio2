@@ -5,12 +5,12 @@
     ],
     "skills": [
         {
-            "name": "Vue.js",
+            "name": "Unity",
             "svg": [
-                "https://cdn.svgporn.com/logos/vue.svg"
+                "https://cdn.svgporn.com/logos/unity.svg"
             ],
             "lv": 70,
-            "descript": "React も学びましたが、個人用途ではこちらのほうが使いやすいと感じました。"
+            "descript": "講師として教えています。なんだかんだいってゲーム制作の経験が活かせます。"
         },
         {
             "name": "Firebase",
