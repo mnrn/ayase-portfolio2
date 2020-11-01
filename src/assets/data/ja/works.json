@@ -41,16 +41,6 @@
   },
   {
     "id": 5,
-    "repo": "https://github.com/mnrn/poke-vue",
-    "title": "ポケモンステータス計算",
-    "year": "2019/7",
-    "descriptions": "",
-    "texts": ["もともとは Vue.js と Firebase で 1~2日程度で作った作品です。", "結局、TypeScript で書き直し、E2E テストも導入することにしました。"],
-    "url": "https://pokemon-stats-calc.firebaseapp.com/",
-    "pic": "poke-vue"
-  },
-  {
-    "id": 6,
     "repo": "https://github.com/mnrn/dotfiles",
     "title": "dotfiles",
     "year": "2019/9",
