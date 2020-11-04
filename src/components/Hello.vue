@@ -1,5 +1,5 @@
 <template lang="pug">
-  div#first
+  div#hello
     div.content
       div.browser-bar
         span(class="close button")
@@ -41,7 +41,7 @@ export default class Hello extends Vue {
   pug と stylus に対応させる点やホームページ用にもろもろ改変させていただきました。
  */
 
-#first
+#hello
   margin: 100px 0
   background: #000
   color: #fff
@@ -55,7 +55,7 @@ export default class Hello extends Vue {
     border-bottom: solid 2px
 
   @media (min-width: 640px)
-    background-image: url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?dpr=2&fit=crop&fm=jpg&h=960&ixlib=rb-0.3.5&q=50&w=1440)
+    background-image: url("~@/assets/img/background.webp")
     background-size: cover
     background-repeat: no-repeat
     background-position: center
