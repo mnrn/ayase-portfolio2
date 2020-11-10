@@ -1,4 +1,5 @@
 module.exports = {
+  /*
   chainWebpack: (config) => {
     config.plugin('prefetch').delete()
     config.plugin('preload').tap(args => {
@@ -6,4 +7,5 @@ module.exports = {
       return args
     })
   }
+  */
 }

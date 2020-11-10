@@ -2,7 +2,7 @@
 	"name":				"portfolio",
 	"short_name":		"portfolio",
 	"description":		"",
-	"start_url":		"/.index.html",
+	"start_url":		"/",
 	"display":			"standalone",
 	"orientation":		"any",
 	"background_color":	"#fff",
