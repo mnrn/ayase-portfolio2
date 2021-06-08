@@ -11,13 +11,23 @@
   },
   {
     "id": 2,
-    "repo": "https://github.com/mnrn/game-memo",
-    "title": "ゲームメモ",
-    "year": "2020/9",
+    "repo": "https://github.com/mnrn/ReGL",
+    "title": "OpenGL グラフィックメモ",
+    "year": "2021/1",
     "descriptions": "",
-    "texts": ["ゲームもしくは低レイヤのプログラミングをする際に覚えておくと良い Tips 集です。", "テンプレートばかりになりましたがコードの読み書きに役に立つと思います。"],
+    "texts": ["もともとはLinuxで動かしていたプログラムですが、PCが壊れたのでMacに移していたものです。", "再入門にあたりWindowsでも動かせるようにしました。"],
     "url": "",
-    "pic": "portable_game"
+    "pic": "pssm_indicator3"
+  },
+  {
+    "id": 3,
+    "repo": "https://github.com/mnrn/ReVK",
+    "title": "Vulkan グラフィックメモ",
+    "year": "2021/3",
+    "descriptions": "",
+    "texts": ["OpenGL グラフィックメモをVulkanに移植しているものです。", "開発途中でMac(MontenVK)以外に対応できていません。Win機が復活したら開発再開します。"],
+    "url": "",
+    "pic": "ssao_only"
   },
   {
     "id": 3,
