@@ -5,7 +5,7 @@
       //div(v-for="svg in skill.svg"): img(:src="svg", width="20" height="auto")
     div.skill-lv(class="d-flex-inline justify-content-start")
       div.progress
-        div.progress-bar.progress-bar-striped(role="progressbar" :style="'width: ' + skill.lv + '%'" :aria-valuenow="skill.lv" aria-valuemin="0" aria-valuemax="100")
+        div.progress-bar.progress-bar-striped(role="progressbar" :style="'width: ' + skill.lv + '%'" :aria-valuenow="skill.lv" aria-valuemin="0" aria-valuemax="100" aria-label="skill-level")
       p {{lv(skill.lv)}}
 </template>
 
