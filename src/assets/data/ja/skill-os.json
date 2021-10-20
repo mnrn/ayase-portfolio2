@@ -9,24 +9,24 @@
             "svg": [
                 "https://cdn.svgporn.com/logos/apple.svg"
             ],
-            "lv": 75,
-            "descript": "プログラミングを学び始めたころから使い続けている OS で業務でも使っております。"
-        },
-        {
-            "name": "Windows",
-            "svg": [
-                "https://cdn.svgporn.com/logos/microsoft-windows.svg"
-            ],
-            "lv": 75,
-            "descript": "業務でも付き合いは長く、組み込み Windows も経験があります。"
+            "lv": 70,
+            "descript": "プログラミングを学び始めたころから使い続けている OS で業務でも使っていました。"
         },
         {
             "name": "Linux",
             "svg": [
                 "https://cdn.svgporn.com/logos/linux-tux.svg"
             ],
-            "lv": 70,
-            "descript": "一時期メインPCとして Ubuntu を使っており、業務では CentOS を使用していました。家では Raspbian と Docker で遊んでいます。"
+            "lv": 80,
+            "descript": "UbuntuとCentOSが多いです。仮想環境での使用が主になります。"
+        },
+        {
+            "name": "Windows",
+            "svg": [
+                "https://cdn.svgporn.com/logos/microsoft-windows.svg"
+            ],
+            "lv": 80,
+            "descript": "業務で付き合いは長く、Windows Server や Windows Embedded も経験があります。"
         }
     ]
 }

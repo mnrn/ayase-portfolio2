@@ -1,0 +1,47 @@
+{
+    "texts": [
+        "業務で扱ったものでお気に入りのものは個人でも使っています。"
+    ],
+    "skills": [
+        {
+            "name": "GitHub",
+            "svg": [
+                "https://cdn.svgporn.com/logos/github-icon.svg"
+            ],
+            "lv": 70,
+            "descript": "Git と同様に長いこと使用しています。pull request や isuue なども楽しんでやってます。"
+        },
+        {
+            "name": "Slack",
+            "svg": [
+                "https://cdn.svgporn.com/logos/slack-icon.svg"
+            ],
+            "lv": 80,
+            "descript": "業務で長いこと使っています。API を使い bot なども作成しました。"
+        },
+        {
+            "name": "Zoom",
+            "svg": [
+                "https://cdn.svgporn.com/logos/zoom.svg"
+            ],
+            "lv": 70,
+            "descript": "リモートで対面するときはこれが多いです。"
+        },
+        {
+            "name": "JIRA",
+            "svg": [
+                "https://cdn.svgporn.com/logos/jira.svg"
+            ],
+            "lv": 70,
+            "descript": "Redmineよりもいろいろ見やすいです。"
+        },
+        {
+            "name": "Confluence",
+            "svg": [
+                "https://cdn.svgporn.com/logos/confluence.svg"
+            ],
+            "lv": 70,
+            "descript": "情報共有に。"
+        }
+    ]
+}
